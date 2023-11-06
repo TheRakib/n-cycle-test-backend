@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "moduleResolution": "Node",
+    "target": "ES6",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*", "api/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
